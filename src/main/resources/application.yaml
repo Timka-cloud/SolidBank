@@ -1,0 +1,26 @@
+server:
+  port: 8080
+#  servlet:
+#    session:
+#      timeout: 60s
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:mydb
+    username: sa
+    password:
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+
+  h2:
+    console:
+      enabled: true
+  flyway:
+    url: jdbc:h2:mem:mydb
+    user: sa
+    password:
