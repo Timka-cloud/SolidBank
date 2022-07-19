@@ -5,7 +5,9 @@ Instruction
 2) Open IDEA and run
 
 3) ENJOY AND HAVE FUN!!
+
 Operations
+
 "1 - show accounts"
 
 "2 - create account"
